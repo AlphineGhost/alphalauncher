@@ -10,7 +10,7 @@
 
 The best way to contact the developers is on Discord.
 
-[![discord](https://discordapp.com/api/guilds/698678804414988338/embed.png?style=banner3)][discord]
+[![discord](https://discord.gg/HCv3bfd)][discord]
 
 ---
 
@@ -22,5 +22,4 @@ The best way to contact the developers is on Discord.
 [mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
 [rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
 [chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
-[discord]: https://discord.gg/zNWUXdt 'Discord'
-[wiki]: https://github.com/dscalzi/HeliosLauncher/wiki 'wiki'
+[discord]: https://discord.gg/HCv3bfd 'Discord'
