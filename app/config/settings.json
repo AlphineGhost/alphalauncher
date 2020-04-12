@@ -1,0 +1,19 @@
+{
+  "APP_DISPLAY_NAME": "Alpha Launcher",
+
+  "WELCOME_HEADER_TEXT": "WELCOME TO ALPHALAUNCHER",
+  "WELCOME_DESC_TEXT": "Our mission is to .....",
+  "WELCOME_DESC_CTA": "You are just a few clicks away from...",
+
+  "WEBSITE_ENABLE": true,
+  "WEBSITE_URL": "https://alphalauncher.com",
+  "TWITTER_ENABLE": false,
+  "TWITTER_URL": "#",
+  "INSTAGRAM_ENABLE": false,
+  "INSTAGRAM_URL": "#",
+  "YOUTUBE_ENABLE": false,
+  "YOUTUBE_URL": "#",
+  "DISCORD_ENABLE": true,
+  "DISCORD_URL": "https://discord.gg/jAB49fX"
+
+}

@@ -1,0 +1,32 @@
+{
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://alphalauncher.com/news/news.rss",
+    "servers": [
+        {
+            "id": "BattleClash-1.8.9",
+            "name": "BattleClash Network",
+            "description": "BattleClash Network, where all the fun happens!",
+            "icon": "https://cdn.minecraft-server-list.com/servericon/454383.png",
+            "version": "3.9.4",
+            "address": "play.battleclash.co",
+            "minecraftVersion": "1.8.9",
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 3805686,
+                        "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
+                        "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+                    }
+                
+                }
+            ]
+        }
+    ]
+}
