@@ -10,7 +10,7 @@
 
 The best way to contact the developers is on Discord.
 
-[![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
+[![discord](https://discordapp.com/api/guilds/698678804414988338/embed.png?style=banner3)][discord]
 
 ---
 
