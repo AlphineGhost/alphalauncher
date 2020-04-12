@@ -1,13 +1,13 @@
 {
-  "name": "mrlauncher",
+  "name": "alphalauncher",
   "version": "1.0.0",
-  "productName": "ModRealms Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Rob Weddell (original by Daniel Scalzi)",
+  "productName": "Alpha Launcher",
+  "description": "Custom Minecraft Launcher",
+  "author": "Krystian Carter (original by Daniel Scalzi)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/ModRealms-Network/HeliosLauncher",
+  "homepage": "https://github.com/AlphineGhost/alphalauncher",
   "bugs": {
-    "url": "https://github.com/ModRealms-Network/HeliosLauncher/issues"
+    "url": "https://github.com/AlphineGhost/alphalaunche/issues"
   },
   "private": true,
   "main": "index.js",
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ModRealms-Network/HeliosLauncher.git"
+    "url": "git+https://github.com/AlphineGhost/alphalauncher.git"
   }
 }
