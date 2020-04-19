@@ -2,15 +2,13 @@
 
 <h1 align="center">Alpha Launcher</h1>
 
-<em><h5 align="center">(Branched off of Helios Launcher)</h5></em>
+<em><h5 align="center">(Made for BattleClash)</h5></em>
 
 [<p align="center">[<img src="https://img.shields.io/github/downloads/AlphineGhost/AlphaLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/AlphineGhost/alphalauncher/releases)</p>
 
 <p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
 The best way to contact the developers is on Discord.
-
-[![discord](https://discord.gg/HCv3bfd)][discord]
 
 ---
 
