@@ -1,4 +1,5 @@
-const net = require('net')
+//const net = require('net')
+const request = require('request')
 
 /**
  * Retrieves the status of a minecraft server.
@@ -8,6 +9,8 @@ const net = require('net')
  * @returns {Promise.<Object>} A promise which resolves to an object containing
  * status information.
  */
+
+/*
 exports.getStatus = function(address, port = 25565){
 
     if(port == null || port == ''){
@@ -23,7 +26,17 @@ exports.getStatus = function(address, port = 25565){
             socket.write(buff)
         })
 
-        socket.setTimeout(2500, () => {
+   
+        const test = net.request({
+            method: 'GET',
+            hostname: 'mcapi.us',
+            port: 443,
+            path: '/server/status?ip=mazecity.boxtoplay.com'
+        })
+            console.log(test);
+
+
+        socket.setTimeout(10000, () => {
             socket.end()
             reject({
                 code: 'ETIMEDOUT',
@@ -62,4 +75,32 @@ exports.getStatus = function(address, port = 25565){
         })
     })
 
+}
+*/
+
+exports.getStatus = function(address){
+    return new Promise((resolve, reject) => {
+        request.get('https://api.mcsrvstat.us/2/play.battleclash.co',
+            {
+                json: true,
+                timeout: 2500
+            },
+            function(error, response, body){
+
+                if(error || response.statusCode !== 200){
+                    reject(error || response.statusCode)
+                    resolve({
+                        online: false
+                    })
+                } else {
+                    resolve({
+                        online: true,
+                        version: body.version,
+                        onlinePlayers: body.players.online,
+                        maxPlayers: body.players.max
+                    })
+                }
+            })
+        console.log(request)
+    })
 }

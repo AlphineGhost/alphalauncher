@@ -1,19 +1,31 @@
 {
+    "version": "2.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "Alpha Launcher",
+        "smallImageKey": "seal-circle"
+    },
+
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
     "rss": "https://alphalauncher.com/news/news.rss",
     "servers": [
         {
-            "id": "BattleClash-1.8.9",
+            "id": "BattleClash 1.8.9 Modded",
             "name": "BattleClash Network",
-            "description": "BattleClash Network, where all the fun happens!",
+            "description": "A network devoted to making the best gamemodes possible. We provide Factions, Prison, Skyblock and KitPvP.\n We are a brand new network with an active community including a \nhelpful staff team that are happy to help with any issues.",
             "icon": "https://cdn.minecraft-server-list.com/servericon/454383.png",
-            "version": "3.9.4",
+            "version": "2.0.0",
             "address": "play.battleclash.co",
             "minecraftVersion": "1.8.9",
             "mainServer": true,
             "autoconnect": true,
+            "discord": {
+                "shortId": "Main Network",
+                "largeImageText": "BattleClash - Network",
+                "largeImageKey": "server-prod"
+            },
             "modules": [
                 {
                     "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318",
@@ -23,8 +35,295 @@
                         "size": 3805686,
                         "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
                         "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.minecraft:launchwrapper:1.12",
+                            "name": "Mojang (LauncherWrapper)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 32999,
+                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                            }
+                        },
+                        {
+                            "id": "org.ow2.asm:asm-all:5.0.3@jar",
+                            "name": "Minecraft Forge (asm-all)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 241639,
+                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar.pack.xz",
+                            "name": "Minecraft Forge (akka-actor_2.11)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 746612,
+                                "MD5": "25cb22c3078e9fb3f7a861c912924862",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "com.typesafe:config:1.2.1@jar.pack.xz",
+                            "name": "Minecraft Forge (config)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 56636,
+                                "MD5": "10ec4ccabc4e68aac9cf87165ead5d7d",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-actors-migration_2.11)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 21324,
+                                "MD5": "04e3428b2600ace33c7ae2bf1f6c0a4c",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-compiler:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-compiler)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 3076920,
+                                "MD5": "7d89e952f2d5c74577310cd2c28e3f20",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-library_2.11)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 7956,
+                                "MD5": "ed9b1d27aba8ac4090a3749c4dfc895a",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 46140,
+                                "MD5": "a8232db22a72a981de6b1399eb86dff7",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-library:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-library)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1474672,
+                                "MD5": "379c15c4f724421c6d5d7aecedaf87a6",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 85568,
+                                "MD5": "2e50a7df17680daadacca69f07f8a16d",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-reflect:2.11.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-reflect)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 1070312,
+                                "MD5": "84e5dc81c10e2bd74c579c9d0332fdd9",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-swing_2.11)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 205676,
+                                "MD5": "e3928976c4994b114356b9d3489fe409",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar.pack.xz",
+                            "name": "Minecraft Forge (scala-xml_2.11)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 217812,
+                                "MD5": "cc891b094a4c32dedc56bfefe9b072ff",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.pack.xz"
+                            }
+                        },
+                        {
+                            "id": "lzma:lzma:0.0.1@jar",
+                            "name": "Minecraft Forge (lzma)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 5762,
+                                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                            }
+                        },
+                        {
+                            "id": "net.sf.jopt-simple:jopt-simple:4.5@jar",
+                            "name": "Minecraft Forge (jopt-simple)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 61311,
+                                "MD5": "1372bd4823bb1ef61e7db6724f601150",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+                            }
+                        },
+                        {
+                            "id": "com.google.guava:guava:17.0@jar",
+                            "name": "Minecraft Forge (guava)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 2243036,
+                                "MD5": "89fef81c2adfa9b50a64ed5cd5d8c155",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/com/google/guava/guava/17.0/guava-17.0.jar"
+                            }
+                        },
+                        {
+                            "id": "org.apache.commons:commons-lang3:3.3.2@jar",
+                            "name": "Minecraft Forge (commons-lang3)",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 412739,
+                                "MD5": "3128bf75a2549ebe38663401191bacab",
+                                "url": "https://files.nlab.dev/thecube/repo/lib/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "net.optifine:optifine:1.8.9_HD_U_L5",
+                    "name": "Optifine 1.8.9 HD U L5",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2517183,
+                        "MD5": "2332fcdb59ca0e4ee79cddf8fe114d25",
+                        "url": "https://dl.dropboxusercontent.com/s/075ypv0nn5u00m8/OptiFine_1.8.9_HD_U_L5.jar?dl=0"
+                    }
+                },
+                {
+                    "id": "jobicade.betterhud:betterhud:1.3.7-1.8.9",
+                    "name": "BetterHud Modified",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 22291385,
+                        "MD5": "e98c54ee994e45bf61a857d19a707b5f",
+                        "url": "https://dl.dropboxusercontent.com/s/rhy27o01vn2duc3/Better%20HUD%20by%20NukeDuck%20%5B1.8.9%5D%5B1.3.7%5D.jar?dl=0"
+                    },
+                    "subModules": [
+                        {
+                            "id": "hud.txt",
+                            "name": "BetterHud General Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 20258,
+                                "path": "/config/hud.txt",
+                                "url": "https://dl.dropboxusercontent.com/s/gmygxxv1cm5j86p/hud.txt?dl=0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "sidebarmod:sidebarmod:1.8.9-2.0",
+                    "name": "SideBar Mod",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 17937,
+                        "MD5": "CC03BB6E904342DCE232C3CEE264C626",
+                        "url": "https://dl.dropboxusercontent.com/s/u9anhidq5amjsls/%5B1.8.9%5D%20Sidebar%20Mod%20Revamp.jar?dl=0"
+                    },
+                    "subModules": [
+                        {
+                            "id": "SidebarMod Config",
+                            "name": "SideBarMod Configuration File",
+                            "type": "File",
+                            "artifact": {
+                                "size": 272,
+                                "MD5": "C5C4459FB85E0118F284ED0835835615",
+                                "path": "/config/SidebarMod.config",
+                                "url": "https://dl.dropboxusercontent.com/s/5pun0b41xcut1fr/SidebarMod.config?dl=0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "mcp.mobius:waila:1.6.0-B3_1.8.8",
+                    "name": "Waila",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 541081,
+                        "MD5": "6778771e8a53e77ddd868632485455e8",
+                        "url": "https://dl.dropboxusercontent.com/s/ikcyvg7o5ks9s7w/Waila-1.6.0-B3_1.8.8.jar?dl=0"
+                    }
+                },
+                {
+                    "id": "com.mumfrey:liteloader:1.8.9",
+                    "name": "Liteloader",
+                    "type": "LiteLoader",
+                    "required": {
+                        "value": true,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 1280555,
+                        "MD5": "ba8e6285966d7d988a96496f48cbddaa",
+                        "url": "https://dl.dropboxusercontent.com/s/wlfrezz6739k3hi/liteloader-1.8.9-SNAPSHOT-release.jar?dl=0"
+                    }
+                },
+                {
+                    "id": "mnm.mods.tabbychat:tabbychat2:2.3.4@liteloader",
+                    "name": "TabbyChat 2",
+                    "type": "LiteMod",
+                    "required": {
+                        "value": true,
+                        "def": false
+                    },
+                    "artifact": {
+                        "size": 627913,
+                        "MD5": "643350918c11bcc02fbcfb2732abe4b1",
+                        "url": "https://dl.dropboxusercontent.com/s/r28fdm4aq7xq2js/mod-tabbychat-2.0.4-mc1.8.9-all.litemod?dl=0"
                     }
                 
+                },
+                {
+                    "id": "options.txt",
+                    "name": "Default Client Options",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2865,
+                        "path": "options.txt",
+                        "url": "https://dl.dropboxusercontent.com/s/b3q25jjxpmwqvhb/options.txt?dl=0" 
+                    }
                 }
             ]
         }

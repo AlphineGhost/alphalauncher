@@ -1,0 +1,76 @@
+{
+  "application": {
+    "id": 600394994733547532,
+    "manifests": [
+      {
+        "label": "alphalauncher/windows",
+        "platforms": ["win32", "win64"],
+        "locales": [],
+        "local_root": "./dist/win-unpacked",
+        "file_rules": null,
+        "storage": null,
+        "registry_keys": [
+          {
+            "key": "Software\\Alpha\\AlphaLauncher\\installed",
+            "value": "1"
+          }
+        ],
+        "launch_options": [
+          {
+            "name": "Alpha",
+            "executable": "dist/win-unpacked/AlphaLauncher.exe",
+            "arguments": [],
+            "platforms": ["win32", "win64"],
+            "working_dir": ""
+          }
+        ]
+      },
+	   {
+        "label": "AlphaLauncher/linux",
+        "platforms": ["linux"],
+        "locales": [],
+        "local_root": "./dist/linux-unpacked",
+        "file_rules": null,
+        "storage": null,
+        "registry_keys": [
+          {
+            "key": "Software\\Alpha\\AlphaLauncher\\installed",
+            "value": "1"
+          }
+        ],
+        "launch_options": [
+          {
+            "name": "Alpha",
+            "executable": "dist/linux-unpacked/AlphaLauncher.AppImage",
+            "arguments": [],
+            "platforms": ["linux"],
+            "working_dir": ""
+          }
+        ]
+      },
+      {
+        "label": "AlphaLauncher/osx",
+        "platforms": ["osx"],
+        "locales": [],
+        "local_root": "./dist/osx-unpacked",
+        "file_rules": null,
+        "storage": null,
+        "registry_keys": [
+          {
+            "key": "Software\\Alpha\\AlphaLauncher\\installed",
+            "value": "1"
+          }
+        ],
+        "launch_options": [
+          {
+            "name": "Alpha",
+            "executable": "dist/osx-unpacked/AlphaLauncher.AppImage",
+            "arguments": [],
+            "platforms": ["osx"],
+            "working_dir": ""
+          }
+        ]
+      }
+    ]
+  }
+}

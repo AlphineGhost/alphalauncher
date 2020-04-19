@@ -1,9 +1,10 @@
 const fs = require('fs')
 const path = require('path')
 const request = require('request')
+
 const ConfigManager = require('./configmanager')
 const logger        = require('./loggerutil')('%c[DistroManager]', 'color: #a02d2a; font-weight: bold')
-const constants = require('../../config/constants')
+
 /**
  * Represents the download information
  * for a specific module.
@@ -536,8 +537,10 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
+        const distroURL = 'https://dl.dropboxusercontent.com/s/xf7nyhyitw7iyi7/distribution.json?dl=0'
+        //const distroURL = 'https://gist.githubusercontent.com/dscalzi/53b1ba7a11d26a5c353f9d5ae484b71b/raw/'
         const opts = {
-            url: constants.DISTRIBUTION_URL,
+            url: distroURL,
             timeout: 2500
         }
         const distroDest = path.join(ConfigManager.getLauncherDirectory(), 'distribution.json')

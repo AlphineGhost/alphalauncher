@@ -18,10 +18,10 @@ function getCurrentPlatform(){
 builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'helioslauncher',
-        productName: 'Helios Launcher',
+        appId: 'alphalauncher',
+        productName: 'AlphaLauncher',
         artifactName: '${productName}.${ext}',
-        copyright: 'Copyright © 2018-2020 Daniel Scalzi',
+        copyright: 'Copyright © 2020-2020 AlphaLauncher',
         directories: {
             buildResources: 'build',
             output: 'dist'
@@ -32,22 +32,26 @@ builder.build({
                     target: 'nsis',
                     arch: 'x64'
                 }
-            ]
+            ],
+            icon: 'build/icon.ico'
         },
         nsis: {
             oneClick: false,
-            perMachine: false,
+            perMachine: true,
             allowElevation: true,
+            installerIcon: 'build/icon.ico',
+            uninstallerIcon: 'build/icon.ico',
             allowToChangeInstallationDirectory: true
         },
         mac: {
             target: 'dmg',
-            category: 'public.app-category.games'
+            category: 'public.app-category.games',
+            icon: 'build/icon.icns'
         },
         linux: {
             target: 'AppImage',
-            maintainer: 'Daniel Scalzi',
-            vendor: 'Daniel Scalzi',
+            maintainer: 'Alphine',
+            vendor: 'Alphine',
             synopsis: 'Modded Minecraft Launcher',
             description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.',
             category: 'Game'

@@ -162,7 +162,7 @@ class ProcessBuilder {
                 const e = ProcessBuilder.isModEnabled(modCfg[mdl.getVersionlessID()], mdl.getRequired())
                 if(!o || (o && e)){
                     if(mdl.hasSubModules()){
-                        const v = this.resolveModConfiguration(modCfg[mdl.getVersionlessID()].mods, mdl.getSubModules())
+                        const v = this.resolveModConfiguration(modCfg[mdl.getVersionlessID()], mdl.getSubModules())
                         fMods = fMods.concat(v.fMods)
                         lMods = lMods.concat(v.lMods)
                         if(mdl.type === DistroManager.Types.LiteLoader){
