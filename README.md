@@ -4,9 +4,9 @@
 <h1 align="center">Alphine Launcher 3.0 Coming soon!</h1>
 
 <em><h5 align="center">(Made for BattleClash Network)</h5></em>
-<p align="center"><img src="https://cdn.discordapp.com/attachments/691323362172993608/701279616282918923/BC.png" alt="BattleClash Offical Discord">(https://discord.gg/C2Hdbpw)</p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/691323362172993608/701279616282918923/BC.png" alt="BattleClash Offical Discord"></p>
 
-<p align="center"><img src="https://img.shields.io/github/downloads/AlphineGhost/AlphaLauncher/total.svg?style=for-the-badge" alt="downloads">(https://github.com/AlphineGhost/alphalauncher/releases)</p>
+<p align="center"><img src="https://img.shields.io/github/downloads/AlphineGhost/AlphaLauncher/total.svg?style=for-the-badge" alt="downloads"></p>
 
 This launcher was created for BattleClash Network.
 Some of the features include but not limited too:
@@ -32,6 +32,8 @@ Some of the features include but not limited too:
 <p align="center">Need help getting the right set of mods for BattleClash? We handle that for you! Don't worry! We will handle the java installtion, the client updates, client options, and everything else!</p>
 
 The best way to contact the developer is on discord!
+
+
 [![discord](https://discordapp.com/api/guilds/698678804414988338/embed.png?style=banner3)][discord]
 
 ---
