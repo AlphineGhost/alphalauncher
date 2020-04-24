@@ -6,7 +6,7 @@
 <em><h5 align="center">(Made for BattleClash Network)</h5></em>
 <p align="center"><img src="https://cdn.discordapp.com/attachments/691323362172993608/701279616282918923/BC.png" alt="BattleClash Offical Discord"></p>
 
-<p align="center"><img src="https://img.shields.io/github/downloads/AlphineGhost/AlphaLauncher/total.svg?style=for-the-badge" alt="downloads"></p>
+<p align="center"><img src="https://img.shields.io/github/downloads/AlphineGhost/AlphaLauncher/total.svg?style=for-the-badge" alt="downloads">https://github.com/AlphineGhost/alphalauncher/releases</p>
 
 This launcher was created for BattleClash Network.
 Some of the features include but not limited too:
