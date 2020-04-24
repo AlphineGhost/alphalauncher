@@ -9,21 +9,21 @@
 This launcher was created for BattleClash Network.
 Some of the features include but not limited too:
 
-🔒 Full account management.
+* 🔒 Full account management.
    - Add multiple accounts and easily switch between them.
    - Credentials are never stored and transmitted directly to Mojang.
-📂 Efficient asset management.
+* 📂 Efficient asset management.
    - Receive client updates as soon as we release them.
    - Files are validated before launch. Corrupt or incorrect files will be redownloaded.
-☕ Automatic Java validation.
+* ☕ Automatic Java validation.
    - If you have an incompatible version of Java installed, we'll install the right one for you.
    - You do not need to have Java installed to run the launcher.
-📰 News feed natively built into the launcher.
-⚙️ Intuitive settings management, including a Java control panel.
+* 📰 News feed natively built into the launcher.
+* ⚙️ Intuitive settings management, including a Java control panel.
    - Supports all of our servers.
    - Switch between server configurations with ease.
-- View the player count of the selected server.
-- Automatic updates. That's right, the launcher updates itself.
+* View the player count of the selected server.
+* Automatic updates. That's right, the launcher updates itself.
 
 
 
@@ -36,8 +36,7 @@ The best way to contact the developer is on discord!
 
 
 BattleClash Discord
-[![discord](https://discordapp.com/api/guilds/660179421436837919/embed.png?style=banner3)][discord]
-
+https://discord.gg/C2Hdbpw
 ---
 
 ### See you ingame.
